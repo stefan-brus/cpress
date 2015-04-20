@@ -69,8 +69,6 @@ int main(int argc, char* argv[])
     rc = strlen(contents);
     printf("Bytes read: %lu\n", rc);
 
-    free(NULL);
-
     return 0;
 
 error:
