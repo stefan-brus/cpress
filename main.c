@@ -36,7 +36,7 @@ void print_bytes(const char* str)
 
     for(i = 0; str[i] != '\0'; i++)
     {
-        printf("%x ", str[i]);
+        printf("%x ", (unsigned char)str[i]);
     }
 
     printf("\n");
