@@ -55,7 +55,6 @@ int main(int argc, char* argv[])
     if(argc < 2)
     {
         print_usage();
-
         goto error;
     }
 
